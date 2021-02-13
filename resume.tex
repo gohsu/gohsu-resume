@@ -1,0 +1,97 @@
+\documentclass{gohsu-resume} 
+
+\usepackage{lipsum} % delete this, for demo only
+
+\begin{document}
+
+% --------- HEADING
+\begin{center}
+	{\LARGE\bf Your Name}\\[0.5em]
+	\href{mailto:your@mail.com}{\faEnvelope \space your@mail.com} $|$
+	\href{https://www.linkedin.com/in/yourname/}{\faLinkedin \space yourname} $|$
+	\href{https://github.com/yourname}{\faGithub \space yourname} $|$
+	\smallskip
+\end{center}
+
+% --------- EDUCATION
+
+\begin{resumeSection}{Education}
+	
+	\entryHeading{\textbf{College University}, City, State}
+	{exp. Apr 2021}
+	{B.A. Program; GPA: xx/xx}
+	\begin{entryItemize}
+		\item Relevant Coursework: course, course, course.
+	\end{entryItemize}
+
+\end{resumeSection}
+
+
+% --------- EXPERIENCE
+\begin{resumeSection}{Experience}
+	
+	\entryHeading{\textbf{Company Name}, Location}
+	{Aug 2019 - }
+	{Position Title}
+	\begin{entryItemize}
+		\item \lipsum[1][1-3]
+		\item \lipsum[1][4-6]
+	\end{entryItemize}
+
+	\entryHeading{\textbf{Company Name}, Location}
+	{May - Sep 2020}
+	{Position Title}
+	\begin{entryItemize}
+		\item \lipsum[1][3-5]
+	\end{entryItemize}
+
+	\entryHeading{\textbf{Company Name}, Location}
+	{May - Sep 2020}
+	{Position Title}
+	\begin{entryItemize}
+		\item \lipsum[2][1-4]
+	\end{entryItemize}
+
+\end{resumeSection}
+
+
+% --------- PROJECTS
+
+\begin{resumeSection}{Projects}
+	
+	\entrySubheading{Cool project}{Mar 2019}
+	\begin{subentryItemize}
+		\item \lipsum[3][1-3] [\linkto{https://devpost.com}{DevPost}, \linkto{https://github.com}{Git repo}].
+	\end{subentryItemize}
+
+	\entrySubheading{Cool project}{May - Aug 2018}
+	\begin{subentryItemize}
+		\item \lipsum[3][4-6]
+		\item \lipsum[3][7-9]
+	\end{subentryItemize}
+
+\end{resumeSection}
+
+
+
+\begin{resumeSection}{Extra-Curriculars}
+	
+	\begin{tabular}{p{0.8\textwidth}p{0.2\textwidth}}
+		{\textbf{Club}, Member} & {Fall 2020 - } \\[0.5em]
+		
+		{\textbf{Club}, President} & {2019 - 2020}
+	\end{tabular}	
+		
+\end{resumeSection}
+
+
+\begin{resumeSection}{Skills}
+	
+	\begin{tabular}{p{0.2\textwidth}p{0.8\textwidth}}
+	{Programming} & {Java, C\#, C, Go, R, Swift, PHP}\\ 
+	{Other skills} & {etc, etc, etc}
+	\end{tabular}
+
+\end{resumeSection}
+
+\end{document}
